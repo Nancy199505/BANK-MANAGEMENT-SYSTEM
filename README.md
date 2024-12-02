@@ -48,20 +48,20 @@ BankManagementSystem/
 │   │   ├── java/
 │   │   │   └── com/
 │   │   │       └── bank/
-│   │   │           ├── dao/          # Database operations
-│   │   │           ├── model/        # POJOs for User, Account, Transaction
-│   │   │           ├── service/      # Business logic
-│   │   │           ├── util/         # Utility classes (e.g., DatabaseConnection)
-│   │   │           └── controller/   # Servlets for handling HTTP requests
+│   │   │           ├── dao/         
+│   │   │           ├── model/        
+│   │   │           ├── service/     
+│   │   │           ├── util/         
+│   │   │           └── controller/   
 │   │   └── webapp/
-│   │       ├── WEB-INF/              # Contains web.xml
-│   │       ├── index.html            # Welcome page
-│   │       ├── login.html            # User login page
-│   │       ├── register.html         # User registration page
-│   │       ├── profile.html          # Profile management page
-│   │       ├── styles.css            # Custom styles
-│   │       └── js/                   # JavaScript files for validation
-├── pom.xml                           # Maven dependencies
+│   │       ├── WEB-INF/              
+│   │       ├── index.html           
+│   │       ├── login.html            
+│   │       ├── register.html         
+│   │       ├── profile.html          
+│   │       ├── styles.css            
+│   │       └── js/                 
+├── pom.xml                           
 
 
 # Database Schema: 
@@ -139,9 +139,6 @@ mvn clean install
 
 Right-click on the project in Eclipse → Run on Server → Select Apache Tomcat.
 
-* Access the Application:
-
-Open your browser and go to http://localhost:8080/bank-management-system.
 
 # License:
 
