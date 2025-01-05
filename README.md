@@ -66,23 +66,41 @@ BankingWebApp/
 │   │   │     └── database.properties
 
 │   │   └── webapp/
+
 │   │       ├── WEB-INF/
+
 │   │       │   ├── web.xml
+
 │   │       │   └── views/
+
 │   │       │       ├── login.jsp
+
 │   │       │       ├── logout.jsp
+
 │   │       │       ├── profile.jsp
+
 │   │       │       └── registration.jsp
+
 │   │       └── assets/
+
 │   │           ├── css/
+
 │   │           └── js/
+
 │   └── test/
+
 │       └── java/
+
 │           └── com.bank.test/
+
 │               ├── dao/
+
 │               ├── service/
+
 │               └── servlet/
+
 ├── pom.xml
+
 └── README.md
                          
 
