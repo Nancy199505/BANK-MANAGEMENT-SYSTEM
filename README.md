@@ -60,8 +60,11 @@ BankingWebApp/
 │   │   │   ├── com.bank.servlet/
 
 │   │   │   └── com.bank.utils/
+
 │   │   ├── resources/
-│   │   │   └── database.properties
+
+│   │   │     └── database.properties
+
 │   │   └── webapp/
 │   │       ├── WEB-INF/
 │   │       │   ├── web.xml
