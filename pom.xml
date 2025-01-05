@@ -32,6 +32,20 @@
 			<artifactId>mysql-connector-j</artifactId>
 			<version>8.0.33</version>
 		</dependency>
+
+		<dependency>
+			<groupId>jakarta.servlet</groupId>
+			<artifactId>jakarta.servlet-api</artifactId>
+			<version>5.0.0</version> <!-- Ensure version matches your setup -->
+			<scope>provided</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>jstl</artifactId>
+			<version>1.2</version>
+		</dependency>
+
 	</dependencies>
 	<build>
 		<finalName>bank-management-system</finalName>
