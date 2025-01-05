@@ -45,14 +45,19 @@ IDE: Eclipse IDE
 BankManagementSystem/
 BankingWebApp/
 ├── src/
+
 │   ├── main/
 
 │   │   ├── java/
 
 │   │   │   ├── com.bank.dao/
+
 │   │   │   ├── com.bank.model/
+
 │   │   │   ├── com.bank.service/
+
 │   │   │   ├── com.bank.servlet/
+
 │   │   │   └── com.bank.utils/
 │   │   ├── resources/
 │   │   │   └── database.properties
