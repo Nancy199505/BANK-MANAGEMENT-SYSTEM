@@ -63,41 +63,41 @@ BankingWebApp/
 
 │   │   ├── resources/
 
-│   │   │     └── database.properties
+│   │   │      └── database.properties
 
 │   │   └── webapp/
 
-│   │       ├── WEB-INF/
+│   │          ├── WEB-INF/
 
-│   │       │   ├── web.xml
+│   │       │      ├── web.xml
 
-│   │       │   └── views/
+│   │       │      └── views/
 
-│   │       │       ├── login.jsp
+│   │       │           ├── login.jsp
 
-│   │       │       ├── logout.jsp
+│   │       │           ├── logout.jsp
 
-│   │       │       ├── profile.jsp
+│   │       │           ├── profile.jsp
 
-│   │       │       └── registration.jsp
+│   │       │           └── registration.jsp
 
-│   │       └── assets/
+│   │           └── assets/
 
-│   │           ├── css/
+│   │                ├── css/
 
-│   │           └── js/
+│   │                └── js/
 
 │   └── test/
 
 │       └── java/
 
-│           └── com.bank.test/
+│             └── com.bank.test/
 
-│               ├── dao/
+│                    ├── dao/
 
-│               ├── service/
+│                    ├── service/
 
-│               └── servlet/
+│                    └── servlet/
 
 ├── pom.xml
 
