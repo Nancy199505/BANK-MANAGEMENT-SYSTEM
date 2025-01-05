@@ -24,6 +24,7 @@ public class LoginServlets extends HttpServlet {
         out.println("Password: <input type='password' name='password' required><br>");
         out.println("<button type='submit'>Login</button>");
         out.println("</form>");
+        response.sendRedirect("login.jsp");
     }
 
     @Override

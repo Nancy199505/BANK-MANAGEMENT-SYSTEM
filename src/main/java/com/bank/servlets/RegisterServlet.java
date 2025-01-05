@@ -31,6 +31,7 @@ public class RegisterServlet extends HttpServlet {
         out.println("Password: <input type='password' name='password'><br>");
         out.println("<button type='submit'>Register</button>");
         out.println("</form>");
+        response.sendRedirect("Register.jsp");
     }
 
     @Override

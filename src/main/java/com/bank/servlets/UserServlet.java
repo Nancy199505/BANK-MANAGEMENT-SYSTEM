@@ -17,6 +17,7 @@ public class UserServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         response.setContentType("text/html");
         response.getWriter().write("<h1>Welcome to the User Management Servlet</h1>");
+        response.sendRedirect("Profile.jsp");
     }
 
     // Handles POST Requests

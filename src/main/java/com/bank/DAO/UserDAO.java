@@ -7,8 +7,14 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
+import org.h2.jdbcx.JdbcDataSource;
+
 public class UserDAO {
-    public boolean addUser(User user) throws SQLException {
+    public UserDAO(JdbcDataSource dataSource) {
+		// TODO Auto-generated constructor stub
+	}
+
+	public boolean addUser(User user) throws SQLException {
         String sql = "INSERT INTO Users (username, password) VALUES (?, ?)";
         try (Connection conn = DatabaseConnection.getConnection();
              PreparedStatement stmt = conn.prepareStatement(sql)) {
@@ -34,4 +40,14 @@ public class UserDAO {
             return null;
         }
     }
+
+	public Object saveUser(User user) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public User getUserByEmail(String string) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }

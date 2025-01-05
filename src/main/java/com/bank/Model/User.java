@@ -1,25 +1,25 @@
 package com.bank.Model;
 
 public class User {
-    private int userId;
+    private String userId;
     private String username;
     private String password;
 
 
     public User() {}
 
-    public User(int userId, String username, String password) {
-        this.userId = userId;
+    public User(String string, String username, String password) {
+        this.userId = string;
         this.username = username;
         this.password = password;
     }
 
 
-    public int getUserId() {
+    public String getUserId() {
         return userId;
     }
 
-    public void setUserId(int userId) {
+    public void setUserId(String userId) {
         this.userId = userId;
     }
 
@@ -48,4 +48,14 @@ public class User {
                 ", password='" + password + '\'' +
                 '}';
     }
+
+	public Object getName() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public void setUserId(int int1) {
+		// TODO Auto-generated method stub
+		
+	}
 }

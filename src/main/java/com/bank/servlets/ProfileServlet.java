@@ -34,6 +34,7 @@ public class ProfileServlet extends HttpServlet {
         out.println("<p><strong>Username:</strong> " + username + "</p>");
         out.println("<p><strong>Email:</strong> " + email + "</p>");
         out.println("<p><a href='LogoutServlet'>Logout</a></p>");
+        response.sendRedirect("Profile.jsp");
     }
 
     @Override
