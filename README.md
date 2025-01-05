@@ -46,7 +46,9 @@ BankManagementSystem/
 BankingWebApp/
 ├── src/
 │   ├── main/
+
 │   │   ├── java/
+
 │   │   │   ├── com.bank.dao/
 │   │   │   ├── com.bank.model/
 │   │   │   ├── com.bank.service/
