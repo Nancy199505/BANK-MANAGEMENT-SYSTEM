@@ -43,25 +43,37 @@ IDE: Eclipse IDE
 * Project Structure:
 
 BankManagementSystem/
+BankingWebApp/
 ├── src/
 │   ├── main/
 │   │   ├── java/
-│   │   │   └── com/
-│   │   │       └── bank/
-│   │   │           ├── dao/         
-│   │   │           ├── model/        
-│   │   │           ├── service/     
-│   │   │           ├── util/         
-│   │   │           └── controller/   
+│   │   │   ├── com.bank.dao/
+│   │   │   ├── com.bank.model/
+│   │   │   ├── com.bank.service/
+│   │   │   ├── com.bank.servlet/
+│   │   │   └── com.bank.utils/
+│   │   ├── resources/
+│   │   │   └── database.properties
 │   │   └── webapp/
-│   │       ├── WEB-INF/              
-│   │       ├── index.html           
-│   │       ├── login.html            
-│   │       ├── register.html         
-│   │       ├── profile.html          
-│   │       ├── styles.css            
-│   │       └── js/                 
-├── pom.xml                           
+│   │       ├── WEB-INF/
+│   │       │   ├── web.xml
+│   │       │   └── views/
+│   │       │       ├── login.jsp
+│   │       │       ├── logout.jsp
+│   │       │       ├── profile.jsp
+│   │       │       └── registration.jsp
+│   │       └── assets/
+│   │           ├── css/
+│   │           └── js/
+│   └── test/
+│       └── java/
+│           └── com.bank.test/
+│               ├── dao/
+│               ├── service/
+│               └── servlet/
+├── pom.xml
+└── README.md
+                         
 
 
 # Database Schema: 
