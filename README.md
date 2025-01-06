@@ -31,6 +31,13 @@ Fully responsive web design using Bootstrap.
   
 JavaScript-based real-time form validation and interactivity.
 
+- **User Registration:** Allows users to register with name, email, and password.
+- **Login/Logout:** Secure login and logout functionality.
+- **Profile Management:** View and update user profiles.
+- **Error Handling:** Proper error messages for invalid actions.
+- **JSTL & EL Usage:** Simplifies data display and logic in JSP.
+- **Unit Testing:** Comprehensive tests for Service and DAO layers.
+
 * Technologies Used: 
 
 Frontend: HTML, CSS, JavaScript, Bootstrap
